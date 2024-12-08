@@ -6,7 +6,8 @@ export default function Contact(){
 
         <div className="relative bg-cover bg-center pt-48 pr-14" style={{ backgroundImage: "url('/Rectangle 1.png')" }}>
         <div>
-            <Image src="/Logo.png" alt="Logo" width={77} height={77} className="absolute top-[161px] left-[682px]"/>
+            <Image src="/Logo.png" alt="Logo" width={77} height={77} className="absolute top-[80px] left-[725px]"/>
+            <h1 className="absolute top-[130px] left-[680px] text-[48px] font-medium">Contact</h1>
         </div>
    
         <img src="/Shop Image.png" alt="img" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-auto h-auto" />

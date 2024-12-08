@@ -17,11 +17,11 @@ export default function () {
 
             <div className="slideImages my-10 bg-transparent text-black">
                 <Image src="/InnerPeace.png" width={404} height={582}  alt="Picture of the author" />
-                <div className="w-[217px] h-[130px] absolute top-[3200px] left-[660px] bg-white bg-opacity-65">
+                <div className="w-[217px] h-[130px] absolute top-[3180px] left-[660px] bg-white bg-opacity-65">
                     <div className="mt-10 gap-2 font-medium flex items-center ml-8">01 --- Bed Room</div>
                     <div className="font-semibold text-[28px] flex items-center justify-center">Inner Peace</div>
                 </div>
-                <button className="w-12 h-12 absolute top-[3284px] left-[877px] bg-[#B88E2F]">
+                <button className="w-12 h-12 absolute top-[3263px] left-[877px] bg-[#B88E2F]">
                     <ArrowRight className="ml-3"/>
                 </button>
             </div>
