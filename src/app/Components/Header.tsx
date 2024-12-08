@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -16,10 +17,10 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <div className="flex gap-[56px] pl-[20px] ml-[100px] text-lg">
-          <a href="/"><h2 className="cursor-pointer font-bold">Home</h2></a>
-          <a href="/Shop"><h2 className="cursor-pointer font-bold">Shop</h2></a>
+          <Link href="/"><h2 className="cursor-pointer font-bold">Home</h2></Link>
+          <Link href="/Shop"><h2 className="cursor-pointer font-bold">Shop</h2></Link>
           <h2 className="cursor-pointer font-bold">Blog</h2>
-          <a href="/Contact"><h2 className="cursor-pointer font-bold">Contact</h2></a>
+          <Link href="/Contact"><h2 className="cursor-pointer font-bold">Contact</h2></Link>
         </div>
 
         {/* Vector Icons */}

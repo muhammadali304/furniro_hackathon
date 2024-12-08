@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Contact(){
     return(
@@ -13,9 +14,9 @@ export default function Contact(){
         <img src="/Shop Image.png" alt="img" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-auto h-auto" />
           <div className="px-14 py-4 flex justify-center ml-16 pb-16">
     <nav className="text-gray-600 ">
-      <a href="/" className="hover:text-gray-400 font-sans font-bold text-xl">Home</a>
+      <Link href="/" className="hover:text-gray-400 font-sans font-bold text-xl">Home</Link>
       <span className="mx-2 "></span>
-      <a href="/contact" className="hover:text-gray-400  font-sans font-bold text-xl">Contact</a>
+      <Link href="/contact" className="hover:text-gray-400  font-sans font-bold text-xl">Contact</Link>
     </nav>
   </div>
 </div>
