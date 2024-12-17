@@ -1,5 +1,6 @@
 import { ChevronRight, SlidersHorizontal } from "lucide-react";
 import Image from "next/image";
+import Services from "../Services/page";
 
 export default function Products(){
 
@@ -138,7 +139,7 @@ export default function Products(){
             </div>
         </div>
 
-        <div className="flex w-[1440px] h-[100px] absolute top-[417px] bg-[#F9F1E7] mx-auto">
+        <div className="flex w-[1440px] h-[100px] absolute top-[417px] bg-[#F9F1E7] ml-10 mt-2">
             <SlidersHorizontal className="absolute top-[37px] left-[98px]"/>
             <p className="font-normal text-[20px] absolute top-[35px] left-[150px]">Filter</p>
         </div>
@@ -174,9 +175,13 @@ export default function Products(){
 
             </div>
 
-            <div className="flex items-center justify-center mt-12 ml-5">
-                <button className="productBtn text-[#B88E2F] px-8 p-2 border-2 border-[#B88E2F]">Show More</button>
+            <div className="flex gap-4 relative top-10 left-[650px]">
+              <p className="bg-[#F9F1E7] py-2 px-4 rounded-lg hover:bg-[#B88E2F]">1</p>
+              <p className="bg-[#F9F1E7] py-2 px-4 rounded-lg hover:bg-[#B88E2F]">2</p>
+              <p className="bg-[#F9F1E7] py-2 px-4 rounded-lg hover:bg-[#B88E2F]">3</p>
+              <p className="bg-[#F9F1E7] py-2 px-4 rounded-lg hover:bg-[#B88E2F]">Next</p>
             </div>
+            <Services />
         </>
     )
 }

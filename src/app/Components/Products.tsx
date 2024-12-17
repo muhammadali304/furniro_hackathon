@@ -80,11 +80,11 @@ export default function Products(){
                     <img
                     src={card.image}
                     style={{ width: "18rem", height: "18rem" }}
-                    className="card-img-top"
+                    className="card-img-top rounded-t-lg"
                     //   alt={card.title}
                     />
 
-                    <div className="card-body text-left pl-2 bg-gray-100">
+                    <div className="card-body text-left pl-2 bg-gray-100 rounded-b-lg">
                         <h5 className="card-title font-semibold">
                         {card.name} 
                         </h5>
@@ -99,7 +99,9 @@ export default function Products(){
             </div>
 
             <div className="flex items-center justify-center mt-12 ml-5">
-                <button className="productBtn text-[#B88E2F] px-8 p-2 border-2 border-[#B88E2F]">Show More</button>
+              <a href="/Shop">
+                <button className="productBtn text-[#B88E2F] px-8 p-2 border-2 border-[#B88E2F] hover:bg-[#B88E2F] hover:text-white">Show More</button>
+              </a>
             </div>
         </>
     )

@@ -1,5 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Clock3, MapPin } from 'lucide-react';
+import { Phone } from 'lucide-react';
+import Services from "../Services/page";
+
+
 
 export default function Contact(){
     return(
@@ -7,24 +12,24 @@ export default function Contact(){
 
         <div className="relative bg-cover bg-center pt-48 pr-14" style={{ backgroundImage: "url('/Rectangle 1.png')" }}>
         <div>
-            <Image src="/Logo.png" alt="Logo" width={77} height={77} className="absolute top-[80px] left-[725px]"/>
-            <h1 className="absolute top-[130px] left-[680px] text-[48px] font-medium">Contact</h1>
+            <Image src="/Logo.png" alt="Logo" width={77} height={77} className="absolute top-[120px] left-[725px]"/>
+            <h1 className="relative top-[0px] left-[680px] text-[48px] font-medium">Contact</h1>
         </div>
    
         <img src="/Shop Image.png" alt="img" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-auto h-auto" />
           <div className="px-14 py-4 flex justify-center ml-16 pb-16">
-    <nav className="text-gray-600 ">
-      <Link href="/" className="hover:text-gray-400 font-sans font-bold text-xl">Home</Link>
-      <span className="mx-2 "></span>
-      <Link href="/contact" className="hover:text-gray-400  font-sans font-bold text-xl">Contact</Link>
-    </nav>
-  </div>
-</div>
+            <nav className="text-gray-600 ">
+              <Link href="/" className="hover:text-gray-400 font-sans font-bold text-xl">Home</Link>
+              <span className="mx-2 ">/</span>
+              <Link href="/contact" className="hover:text-gray-400  font-sans font-bold text-xl">Contact</Link>
+            </nav>
+          </div>
+          </div>
 
     <div className="max-w-5xl mx-auto py-12 px-6">
       <h2 className="text-3xl font-bold text-center mb-6">Get In Touch With Us</h2>
       <p className="text-center text-gray-600 mb-8">
-        For more information about our products & services, feel free to drop us an email. Our staff is always there to help you out. Do not hesitate!
+        For More Information About Our Products & Services, Feel Free To Drop Us An <br /> Email. Our Staff Is Always There To Help You Out. Do Not Hesitate!
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -47,6 +52,10 @@ export default function Contact(){
             <p>Saturday–Sunday: 10:00 AM–2:00 PM</p>
           </div>
         </div>
+
+        <MapPin className="absolute left-[230px]"/>
+        <Phone className="absolute left-[230px] top-[738px]"/>
+        <Clock3 className="absolute left-[230px] top-[840px]" />
 
         {/* Form Section */}
         <form className="bg-white shadow-md rounded-lg p-6 space-y-4">
@@ -111,10 +120,9 @@ export default function Contact(){
         </form>
       </div>
     </div>
+    <Services />
 
-<div className="flex justify-center mt-4"><img src="/Frame 72.png" alt="img" /></div>
 
-<div className="flex justify-center w-full mt-16"><img src="/Frame 161.png" alt="img" /></div>
 </main>
     )
 }

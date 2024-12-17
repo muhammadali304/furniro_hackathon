@@ -12,7 +12,7 @@ export default function Slides () {
                     Our designer already made a lot of beautiful <br /> prototipe of rooms that
                     inspire you
                 </p>
-                <button className="bg-[#B88E2F] p-2 text-white mt-4">Exlore More</button>
+                <button className="bg-[#B88E2F] p-2 text-white mt-4 hover:bg-white hover:text-[#B88E2F] hover:border-2 hover:border-[#B88E2F]">Explore More</button>
             </div>
 
             <div className="slideImages my-10 bg-transparent text-black">

@@ -17,10 +17,10 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <div className="flex gap-[56px] pl-[20px] ml-[100px] text-lg">
-          <Link href="/"><h2 className="cursor-pointer font-bold">Home</h2></Link>
-          <Link href="/Shop"><h2 className="cursor-pointer font-bold">Shop</h2></Link>
-          <h2 className="cursor-pointer font-bold">Blog</h2>
-          <Link href="/Contact"><h2 className="cursor-pointer font-bold">Contact</h2></Link>
+          <Link href="/"><h2 className="cursor-pointer font-bold hover:scale-105 hover:underline">Home</h2></Link>
+          <Link href="/Shop"><h2 className="cursor-pointer font-bold hover:scale-105 hover:underline">Shop</h2></Link>
+          <Link href="/Blog"><h2 className="cursor-pointer font-bold hover:scale-105 hover:underline">Blog</h2></Link>
+          <Link href="/Contact"><h2 className="cursor-pointer font-bold hover:scale-105 hover:underline">Contact</h2></Link>
         </div>
 
         {/* Vector Icons */}

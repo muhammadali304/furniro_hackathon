@@ -22,7 +22,9 @@ export default function Hero() {
           <p className="leading-loose  font-poppins font-medium text-[1rem] mb-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
             dolore</p>
-            <button className="bg-[#B88E2F] pt-4 pr-12 pb-4 pl-12 text-white">BUY NOW</button>
+            <a href="/Shop">
+              <button className="bg-[#B88E2F] pt-4 pr-12 pb-4 pl-12 text-white">BUY NOW</button>
+            </a>
         </div>
     </div>
   </div>
